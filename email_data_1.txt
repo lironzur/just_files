@@ -1,3 +1,3 @@
-id	email	companyName	ctaHref	ctaDisplay utmAppend
+id	email	companyName	ctaHref	ctaDisplay	utmAppend
 1	liron+test@comparably.com	Liron LLC	https://www.comparably.com/companies/comparably?utm_source=comparably&utm_medium=email&utm_campaign=leadershipawards&utm_content=unclaimed	www.comparably.com/companies/comparably	?utm_campaign=leadershipawards&utm_content=unclaimed
-2	ben+test@comparably.com	Ben Corp	https://www.comparably.com/companies/comparably?utm_source=comparably&utm_medium=email&utm_campaign=leadershipawards&utm_content=unclaimed	www.comparably.com/companies/comparably ?utm_campaign=leadershipawards&utm_content=unclaimed
+2	ben+test@comparably.com	Ben Corp	https://www.comparably.com/companies/comparably?utm_source=comparably&utm_medium=email&utm_campaign=leadershipawards&utm_content=unclaimed	www.comparably.com/companies/comparably	?utm_campaign=leadershipawards&utm_content=unclaimed
