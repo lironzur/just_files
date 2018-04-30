@@ -1,4 +1,4 @@
-<title>testing subject for {{args.company_name}}</title>
+<title>Best Places to Work, Secure {{Possessivize args.companyName}} Place</title>
 <style>@media screen and (max-width:500px) { div[class="jobSeekerQAForwardCTA"] { background-image: none !important; } p[class="text-disclaimer"] { width: 100% !important; margin: 0 !important; }div[class="cm_row"] div[class="cm_col"] { width: 100% !important; } td[class="graph_column"] {width: 55px !important; } div[class="cm_row"] div[class="cm_col"] div[class="cm_cell"] { margin: 0 !important; } }</style>
 <div style="display:none !important;">Comparably is publishing our next set of CEO & Leadership awards. Be included.</div>
 <table cellpadding="0" cellspacing="0" width="100%" height="5">
@@ -11,35 +11,27 @@
 </tr>
 </table>
 <div style="background-color:#3B424C;margin:0;padding:0;">
-<a href="{{{ctaHref}}}" style="display:block;font-family:'Open Sans',arial,sans-serif !important;text-decoration:none;margin:0;padding:0 0 20px 0;">
-<h1 style="font-family:'Open Sans',arial,sans-serif !important;font-size:20px;line-height:27px;color:#ffffff;font-weight:normal;text-align:center;margin:0;padding:32px 2% 0 2%;">Get Your CEO Recognized</h1>
+<a href="{{{args.ctaHref}}}" style="display:block;font-family:'Open Sans',arial,sans-serif !important;text-decoration:none;margin:0;padding:0 0 20px 0;">
+<h1 style="font-family:'Open Sans',arial,sans-serif !important;font-size:20px;line-height:27px;color:#ffffff;font-weight:normal;text-align:center;margin:0;padding:32px 2% 0 2%;">Get Your CEO Recognized</h1>	
 <h3 style="font-family:'Open Sans',arial,sans-serif !important;font-size:28px;line-height:38px;color:#ffffff;font-weight:bold;text-align:center;margin:0;padding:5px 2% 10px 2%;">COMPARABLY LEADERSHIP AWARDS</h3>
 <div style="background:#3579E9;border-radius:3px;width:20px;height:5px;margin:0 auto;"></div>
 </a>
 </div>
 <div style="margin:0;padding:13px 20px 0 20px;">
-<a href="{{{ctaHref}}}" style="display:block;text-decoration:none;">
+<a href="{{{args.ctaHref}}}" style="display:block;text-decoration:none;">
 <img src="https://s3-us-west-2.amazonaws.com/emails.comparably.com/Emails.Awards/award-overview-min.png" width="165" height="auto" alt="Comparably Awards" style="display:block;margin:0 auto;padding:0 0 8px 0;" />
 </a>
 <h2 style="font-family:'Open Sans',arial,sans-serif !important;color:#4A4A4A;font-size:20px;line-height:27px;font-weight:bold;text-align:center;margin:0;padding:0 15% 10px 15%;">Get Your CEO The Recognition They Deserve This June</h2>
 <div style="background:#3579E9;border-radius:3px;width:20px;height:5px;margin:0 auto;"></div>
 <div style="margin:0;padding:10px 10% 10px 10%;font-family:'Open Sans',arial,sans-serif !important;color:#676767;font-size:14px;line-height:19px;">
-{{#isOutreach}}
 <p style="margin:0;padding:0 0 20px 0;">Comparably is publishing awards this June, which will be syndicated in major press outlets such as Forbes, Fortune, USA Today, CNBC and more. Have your employees submit ratings by May 23rd, 2018 to qualify to win an award.</p>
 <p style="margin:0;padding:0 0 20px 0;font-weight:bold;">There are NO fees or costs associated to be included.</p>
-<p style="margin:0;padding:0 0 20px 0;">IMPORTANT: your company page is UNCLAIMED. Claim your page to improve your chances of being included.<br /><a href="{{{ctaHref}}}" target="_blank" style="color:#3D89F7;text-decoration:underline;">{{ctaDisplay}}</a>
+<p style="margin:0;padding:0 0 20px 0;">IMPORTANT: your company page is UNCLAIMED. Claim your page to improve your chances of being included.<br /><a href="{{{args.ctaHref}}}" target="_blank" style="color:#3D89F7;text-decoration:underline;">{{args.ctaDisplay}}</a>
 <p style="margin:0;padding:0 0 20px 0;">Good Luck,<br />Kramer & the Comparably Team</p>
-{{/isOutreach}}
-{{#isNotOutreach}}
-<p style="margin:0;padding:0 0 20px 0;">Comparably is publishing awards this June, which will be syndicated in major press outlets such as Forbes, Fortune, USA Today, CNBC and more. <b>Have your employees submit ratings by May 23rd, 2018</b> to qualify to win an award.</p>
-<p style="margin:0;padding:0 0 20px 0;font-weight:bold;">There are NO fees or costs associated to be included.</p>
-<p style="margin:0;padding:0 0 20px 0;">Visit your company page:<br /><a href="{{{ctaHref}}}" target="_blank" style="color:#3D89F7;text-decoration:underline;">{{ctaDisplay}}</a></p>
-<p style="margin:0;padding:0 0 20px 0;">Good Luck,<br />Mike & the Comparably Team</p>
-{{/isNotOutreach}}
 </div>
 </div>
 <div style="border-top:1px solid #E1E8ED;padding-top:30px;">
-<a href="{{{ctaHref}}}" style="display:block;text-decoration:none;">
+<a href="{{{args.ctaHref}}}" style="display:block;text-decoration:none;">
 <h2 style="font-family:'Open Sans',arial,sans-serif !important;color:#4A4A4A;font-size:20px;line-height:27px;font-weight:bold;text-align:center;margin:0;padding:0 12% 2px 12%;">What Awards Can You Win?</h2>
 <h3 style="font-family:'Open Sans',arial,sans-serif !important;color:#4A4A4A;font-size:16px;line-height:22px;font-weight:normal;text-align:center;margin:0;padding:0 15% 10px 15%;">Awards for Small/Mid-Size & Large Companies</h3>
 <div style="background:#3579E9;border-radius:3px;width:20px;height:5px;margin:0 auto;"></div>
@@ -49,17 +41,17 @@
 <table cellspacing="0" cellpadding="0" border="0" width="100%" style="margin:0;padding:0 0 20px 0;">
 <tr>
 <td width="31%" valign="top">
-<a href="{{{ctaHref}}}" style="display:block;text-decoration:none;padding:0 1%;">
+<a href="{{{args.ctaHref}}}" style="display:block;text-decoration:none;padding:0 1%;">
 <img src="https://s3-us-west-2.amazonaws.com/emails.comparably.com/Emails.Awards/award-women-min.png" width="100%" height="auto" alt="Best CEO's for Women" style="display:block;margin:0;padding:0;" />
 </a>
 </td>
 <td width="34%" valign="top">
-<a href="{{{ctaHref}}}" style="display:block;text-decoration:none;padding:0 4%;">
+<a href="{{{args.ctaHref}}}" style="display:block;text-decoration:none;padding:0 4%;">
 <img src="https://s3-us-west-2.amazonaws.com/emails.comparably.com/Emails.Awards/award-leadership-min.png" width="100%" height="auto" alt="Best Company for Leadership" style="display:block;margin:0;padding:0;" />
 </a>
 </td>
 <td width="31%" valign="top">
-<a href="{{{ctaHref}}}" style="display:block;text-decoration:none;padding:0 1%;">
+<a href="{{{args.ctaHref}}}" style="display:block;text-decoration:none;padding:0 1%;">
 <img src="https://s3-us-west-2.amazonaws.com/emails.comparably.com/Emails.Awards/award-diversity-min.png" width="100%" height="auto" alt="Best CEO's for Diversity" style="display:block;margin:0;padding:0;" />
 </a>
 </td>
@@ -86,20 +78,19 @@
 </div>
 </div>
 <div style="border-top:1px solid #E1E8ED;padding:30px 10% 0 10%;">
-<a href="{{{ctaHref}}}" style="display:block;text-decoration:none;">
+<a href="{{{args.ctaHref}}}" style="display:block;text-decoration:none;">
 <h2 style="font-family:'Open Sans',arial,sans-serif !important;color:#4A4A4A;font-size:20px;line-height:27px;font-weight:bold;text-align:center;margin:0;padding:0 15% 2px 15%;">How You Can Win</h2>
 <h3 style="font-family:'Open Sans',arial,sans-serif !important;color:#4A4A4A;font-size:16px;line-height:22px;font-weight:normal;text-align:center;margin:0;padding:0 15% 10px 15%;">Get More Ratings to Boost Your Chances</h3>
 <div style="background:#3579E9;border-radius:3px;width:20px;height:5px;margin:0 auto;"></div>
 </a>
 <table cellspacing="0" cellpadding="0" border="0" style="margin:0;padding:20px 0 30px 0;">
-{{#isOutreach}}
 <tr>
 <td><img src="https://s3-us-west-2.amazonaws.com/emails.comparably.com/Emails.Awards/number-1-min.png" width="49" height="auto" style="display:block;padding:0 15px 15px 0;" /></td>
-<td><p style="color:#464D5C;font-size:16px;line-height:22px;padding-bottom:15px;">Start by <a href="{{{ctaHref}}}" target="_blank" style="color:#3D89F7;text-decoration:underline;">Claiming Your Company Page</a> to get more company votes/ratings.</p></td>
+<td><p style="color:#464D5C;font-size:16px;line-height:22px;padding-bottom:15px;">Start by <a href="{{{args.ctaHref}}}" target="_blank" style="color:#3D89F7;text-decoration:underline;">Claiming Your Company Page</a> to get more company votes/ratings.</p></td>
 </tr>
 <tr>
 <td><img src="https://s3-us-west-2.amazonaws.com/emails.comparably.com/Emails.Awards/number-2-min.png" width="49" height="auto" style="display:block;padding:0 15px 15px 0;" /></td>
-<td><p style="color:#464D5C;font-size:16px;line-height:22px;padding-bottom:15px;"><a href="{{{calendarHref}}}" target="_blank" style="color:#3D89F7;text-decoration:underline;">Click here</a> to schedule a call with us and we will help you create a winning strategy for free</p></td>
+<td><p style="color:#464D5C;font-size:16px;line-height:22px;padding-bottom:15px;"><a href="https://calendly.com/comparably/awards" target="_blank" style="color:#3D89F7;text-decoration:underline;">Click here</a> to schedule a call with us and we will help you create a winning strategy for free</p></td>
 </tr>
 <tr>
 <td><img src="https://s3-us-west-2.amazonaws.com/emails.comparably.com/Emails.Awards/number-3-min.png" width="49" height="auto" style="display:block;padding:0 15px 15px 0;" /></td>
@@ -109,21 +100,6 @@
 <td><img src="https://s3-us-west-2.amazonaws.com/emails.comparably.com/Emails.Awards/number-4-min.png" width="49" height="auto" style="display:block;padding:0 15px 15px 0;" /></td>
 <td><p style="color:#464D5C;font-size:16px;line-height:22px;padding-bottom:15px;">Respond directly to this email if you have any questions <a href="mailto:kramerh@comparably.com" target="_blank" style="color:#3D89F7;text-decoration:underline;">kramerh@comparably.com</a></p></td>
 </tr>
-{{/isOutreach}}
-{{#isNotOutreach}}
-<tr>
-<td><img src="https://s3-us-west-2.amazonaws.com/emails.comparably.com/Emails.Awards/number-1-min.png" width="49" height="auto" style="display:block;padding:0 15px 15px 0;" /></td>
-<td><p style="color:#464D5C;font-size:16px;line-height:22px;padding-bottom:15px;"><a href="{{{calendarHref}}}" target="_blank" style="color:#3D89F7;text-decoration:underline;">Click here</a> to schedule a call with us and we will help you create a winning strategy for free</p></td>
-</tr>
-<tr>
-<td><img src="https://s3-us-west-2.amazonaws.com/emails.comparably.com/Emails.Awards/number-2-min.png" width="49" height="auto" style="display:block;padding:0 15px 15px 0;" /></td>
-<td><p style="color:#464D5C;font-size:16px;line-height:22px;padding-bottom:15px;">Have your team submit their ratings before<br />May 23rd, 2018</p></td>
-</tr>
-<tr>
-<td><img src="https://s3-us-west-2.amazonaws.com/emails.comparably.com/Emails.Awards/number-3-min.png" width="49" height="auto" style="display:block;padding:0 15px 15px 0;" /></td>
-<td><p style="color:#464D5C;font-size:16px;line-height:22px;padding-bottom:15px;">Respond directly to this email if you have any questions <a href="mailto:mike@comparably.com" target="_blank" style="color:#3D89F7;text-decoration:underline;">mike@comparably.com</a></p></td>
-</tr>
-{{/isNotOutreach}}
 </table>
 </div>
 <div style="border-top:1px solid #E1E8ED;padding-top:30px;">
@@ -140,19 +116,19 @@
 <tr>
 <td width="4%" valign="top" style="background:#EFF3F5;">&nbsp;</td>
 <td valign="top" width="30%" style="border:1px solid #E1E8ED;">
-<a href="https://www.comparably.com/companies/sendgrid{{{utmAppend}}}" style="display:block;text-decoration:none;padding:8% 5% 0 5%;">
+<a href="https://www.comparably.com/companies/sendgrid{{{args.utmAppend}}}" style="display:block;text-decoration:none;padding:8% 5% 0 5%;">
 <img src="https://s3-us-west-2.amazonaws.com/emails.comparably.com/Emails.Awards/winner-sendgrid-min.png" alt="SendGrid" width="100%" height="auto" style="display:block;margin:0 auto;" />
 </a>
 </td>
 <td width="1%" style="background:#EFF3F5;">&nbsp;</td>
 <td valign="top" width="30%" style="border:1px solid #E1E8ED;">
-<a href="https://www.comparably.com/companies/golden-hippo-media{{{utmAppend}}}" style="display:block;text-decoration:none;padding:6% 5%;">
+<a href="https://www.comparably.com/companies/golden-hippo-media{{{args.utmAppend}}}" style="display:block;text-decoration:none;padding:6% 5%;">
 <img src="https://s3-us-west-2.amazonaws.com/emails.comparably.com/Emails.Awards/winner-golden-hippo-media-min.png" alt="Golden Hippo Media" width="100%" height="auto" style="display:block;margin:0 auto;" />
 </a>
 </td>
 <td width="1%" style="background:#EFF3F5;">&nbsp;</td>
 <td valign="top" width="30%" colspan="2" style="border:1px solid #E1E8ED;">
-<a href="https://www.comparably.com/companies/intuit{{{utmAppend}}}" style="display:block;text-decoration:none;padding:13%;">
+<a href="https://www.comparably.com/companies/intuit{{{args.utmAppend}}}" style="display:block;text-decoration:none;padding:13%;">
 <img src="https://s3-us-west-2.amazonaws.com/emails.comparably.com/Emails.Awards/winner-intuit-min.png" alt="Intuit" width="100%" height="auto" style="display:block;margin:0 auto;" />
 </a>
 </td>
@@ -166,19 +142,19 @@
 <tr>
 <td width="4%" valign="top" style="background:#EFF3F5;">&nbsp;</td>
 <td valign="top" width="30%" style="border:1px solid #E1E8ED;">
-<a href="https://www.comparably.com/companies/salesforce{{{utmAppend}}}" style="display:block;text-decoration:none;padding:22% 10% 0 10%;vertical-align:middle;">
+<a href="https://www.comparably.com/companies/salesforce{{{args.utmAppend}}}" style="display:block;text-decoration:none;padding:22% 10% 0 10%;vertical-align:middle;">
 <img src="https://s3-us-west-2.amazonaws.com/emails.comparably.com/Emails.Awards/winner-salesforce-min.png" alt="Salesforce" width="100%" height="auto" />
 </a>
 </td>
 <td width="1%" style="background:#EFF3F5;">&nbsp;</td>
 <td valign="top" width="30%" style="border:1px solid #E1E8ED;">
-<a href="https://www.comparably.com/companies/branch-metrics{{{utmAppend}}}" style="display:block;text-decoration:none;padding:14% 13%;">
+<a href="https://www.comparably.com/companies/branch-metrics{{{args.utmAppend}}}" style="display:block;text-decoration:none;padding:14% 13%;">
 <img src="https://s3-us-west-2.amazonaws.com/emails.comparably.com/Emails.Awards/winner-branch-metrics-min.png" alt="Branch Metrics" width="100%" height="auto" style="display:block;margin:0 auto;" />
 </a>
 </td>
 <td width="1%" style="background:#EFF3F5;">&nbsp;</td>
 <td valign="top" width="30%" colspan="2" style="border:1px solid #E1E8ED;">
-<a href="https://www.comparably.com/companies/hubspot{{{utmAppend}}}" style="display:block;text-decoration:none;padding:13%;">
+<a href="https://www.comparably.com/companies/hubspot{{{args.utmAppend}}}" style="display:block;text-decoration:none;padding:13%;">
 <img src="https://s3-us-west-2.amazonaws.com/emails.comparably.com/Emails.Awards/winner-hubspot-min.png" alt="HubSpot" width="100%" height="auto" style="display:block;margin:0 auto;" />
 </a>
 </td>
@@ -195,7 +171,7 @@
 <h2 style="font-family:'Open Sans',arial,sans-serif !important;color:#4A4A4A;font-size:20px;line-height:27px;font-weight:bold;text-align:left;margin:0;padding:0 0 4px 0;">Rules</h2>
 <div style="background:#3579E9;border-radius:3px;width:20px;height:5px;margin:0 0 0 5px;"></div>
 <ol style="color:#676767;font-size:14px;line-height:19px;margin:0;padding:30px 0 40px 15px;">
-<li style="margin:0;padding:0 0 0 10px;">No nomination is required, lists will be compiled from data on your public company page:<br /><a href="{{{ctaHref}}}" target="_blank" style="color:#3D89F7;text-decoration:underline;">{{ctaDisplay}}</a></li>
+<li style="margin:0;padding:0 0 0 10px;">No nomination is required, lists will be compiled from data on your public company page:<br /><a href="{{{args.ctaHref}}}" target="_blank" style="color:#3D89F7;text-decoration:underline;">{{args.ctaDisplay}}</a></li>
 <li style="margin:0;padding:0 0 0 10px;">In order to qualify companies with 500+ employees must have ratings from 50+ employees. Companies with less than 500 employees must have ratings from 15+ employees.</li>
 <li style="margin:0;padding:0 0 0 10px;">Results will be published in June on Comparably and syndicated online and in print with media partners.</li>
 <li style="margin:0;padding:0 0 0 10px;">There are NO fees or costs associated with inclusion.</li>
@@ -204,8 +180,8 @@
 </div>
 <div style="background:#eeeff1;margin:0;padding:0;">
 <div style="padding:20px 0;background:#343a42;font-family:'Open Sans',arial,sans-serif !important;color:#4A4A4A;">
-<a href="{{{employerSolutionsHref}}}" style="display:block;text-decoration:none;color:#fff;font-size:40px;line-height:55px;width:90%;margin:0 auto;padding:0 0 3px 0;">8,000+</a>
-<a href="{{{employerSolutionsHref}}}" style="display:block;text-decoration:none;color:#fff;font-size:18px;line-height:24px;width:90%;margin:0 auto;padding:0 0 15px 0;">Employers are currently using Comparably to:</a>
+<a href="{{{args.ctaHref}}}" style="display:block;text-decoration:none;color:#fff;font-size:40px;line-height:55px;width:90%;margin:0 auto;padding:0 0 3px 0;">8,000+</a>
+<a href="{{{args.ctaHref}}}" style="display:block;text-decoration:none;color:#fff;font-size:18px;line-height:24px;width:90%;margin:0 auto;padding:0 0 15px 0;">Employers are currently using Comparably to:</a>
 <table cellspacing="0" cellpadding="0" border="0" width="90%" style="margin:0 auto;">
 <tr>
 <td width="58%" valign="top">
