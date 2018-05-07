@@ -1,4 +1,4 @@
-userId	email
-1	d.rosario@comparably.com
-1	mary@comparably.com
-1	kramer@comparably.com
+id	email	utmAppend
+1	liron@comparably.com	utmAppend
+1	kramer@comparably.com	utmAppend
+1	tech@comparably.com	utmAppend
