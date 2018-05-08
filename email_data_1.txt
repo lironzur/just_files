@@ -2,3 +2,4 @@ id	email	utmAppend
 1	liron@comparably.com	utmAppend
 1	kramer@comparably.com	utmAppend
 1	tech@comparably.com	utmAppend
+1	jason@comparably.com	utmAppend
